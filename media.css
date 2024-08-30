@@ -1,4 +1,5 @@
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 600px) {
     .content-table {
         border-collapse: collapse;
         margin: 25px 0;
@@ -40,6 +41,7 @@
         color: white;
         border-radius: 5px;
         font-weight: bolder;
+        
     }
     select {
         width: 99px;

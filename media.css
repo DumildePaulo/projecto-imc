@@ -1,6 +1,5 @@
-@media  screen and (max-width:760px) {
-   
-    .content-table{
+@media screen and (max-width: 760px) {
+    .content-table {
         border-collapse: collapse;
         margin: 25px 0;
         font-size: 0.9em;
@@ -12,134 +11,112 @@
         top: 118%;
         overflow-y: auto;
     }
-    #resultado{
+    #resultado {
         position: relative;
-    top: 90%;
-    left: 4%;
-    color: white;
-    font-weight: bolder;
-    }
-    #re{
+        top: 90%;
+        left: 4%;
         color: white;
-    font-weight: bolder;
-    position: absolute;
-    top: 100%;
-    left: 4%;
+        font-weight: bolder;
     }
-    #res{
+    #re, #res {
         color: white;
-    font-weight: bolder;
-    position: absolute;
-    top: 95%;
-    left: 4%;
+        font-weight: bolder;
+        position: absolute;
+        left: 4%;
     }
-    #calcular{
+    #re {
+        top: 100%;
+    }
+    #res {
+        top: 95%;
+    }
+    #calcular {
         position: relative;
         left: 94px;
         top: 81%;
-    width: 152px;
-    height: 42px;
-    background-color: #3F5666;
-    color: white;
-    border-radius: 5px;
-    font-weight: bolder;
-   
+        width: 152px;
+        height: 42px;
+        background-color: #3F5666;
+        color: white;
+        border-radius: 5px;
+        font-weight: bolder;
     }
-    select{
+    select {
         width: 99px;
-    height: 31px;
-    border-radius: -5%;
-    color: black;
-    font-weight: bolder;
+        height: 31px;
+        border-radius: 5px;
+        color: black;
+        font-weight: bolder;
     }
-    #main{
+    #main {
         width: 360px;
         height: 466px;
         background-color: #1A4A5A;
         margin: auto;
         border-radius: 10px;
         box-shadow: 0px 0px 10px #0E2C40;
-        color: WHITE;
+        color: white;
     }
-    #peso_id{
+    #peso_id, #altura_id, #number_id {
         position: absolute;
-    top: 52%;
-    left: 27%;
-    border-radius: 5px;
-    color: white;
-    font-weight: bolder;
-    height: 6%;
-    width: 37%;
-    color: black;
+        left: 27%;
+        border-radius: 5px;
+        color: black;
+        font-weight: bolder;
+        height: 6%;
+        width: 37%;
     }
-    #peso{
-        position: absolute;
-    top: 48%;
-    left: 28%;
+    #peso_id {
+        top: 52%;
     }
-    #kg{
-        position: absolute;
-        top: 54%;
-        left: 68%;
-    }
-    
-    #altura_id{
-        position: absolute;
+    #altura_id {
         top: 39%;
-        left: 27%;
-        border-radius: 5px;
-        color: black;
-        font-weight: bolder;
-        height: 6%;
-    width: 37%;
     }
-    #altura{
-        position: absolute;
-        top: 34%;
-        left: 28%;
-    
-    }
-    #m{
-        position: absolute;
-        top: 41%;
-        left: 68%;
-    }
-    #number_id{
-        position: absolute;
+    #number_id {
         top: 25%;
-        left: 27%;
-        border-radius: 5px;
-        color: black;
-        font-weight: bolder;
-        height: 6%;
-    width: 37%;
     }
-    #idade{
+    #peso, #altura, #idade {
         position: absolute;
-        top: 20%;
         left: 28%;
     }
-    #anos{
+    #peso {
+        top: 48%;
+    }
+    #altura {
+        top: 34%;
+    }
+    #idade {
+        top: 20%;
+    }
+    #kg, #m, #anos {
         position: absolute;
-        top: 27%;
         left: 68%;
     }
-    #sexo2{
+    #kg {
+        top: 54%;
+    }
+    #m {
+        top: 41%;
+    }
+    #anos {
+        top: 27%;
+    }
+    #sexo2 {
         position: absolute;
         top: 9%;
         left: 52%;
         width: 83px;
         height: 19px;
     }
-    #limpar{
+    #limpar {
         position: absolute;
-    left: 83px;
-    top: 3%;
-    width: 75px;
-    height: 26px;
-    background-color: #3F5666;
-    color: white;
-    border-radius: 5px;
-    font-weight: bolder;
+        left: 83px;
+        top: 3%;
+        width: 75px;
+        height: 26px;
+        background-color: #3F5666;
+        color: white;
+        border-radius: 5px;
+        font-weight: bolder;
     }
 }

@@ -1,0 +1,145 @@
+@media  screen and (max-width:760px) {
+   
+    .content-table{
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 276px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.501);
+        position: absolute;
+        top: 118%;
+        overflow-y: auto;
+    }
+    #resultado{
+        position: relative;
+    top: 90%;
+    left: 4%;
+    color: white;
+    font-weight: bolder;
+    }
+    #re{
+        color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    }
+    #res{
+        color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 95%;
+    left: 4%;
+    }
+    #calcular{
+        position: relative;
+        left: 94px;
+        top: 72%;
+    width: 152px;
+    height: 42px;
+    background-color: #3F5666;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+   
+    }
+    select{
+        width: 99px;
+    height: 31px;
+    border-radius: -5%;
+    color: black;
+    font-weight: bolder;
+    }
+    #main{
+        width: 360px;
+        height: 466px;
+        background-color: #1A4A5A;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #0E2C40;
+        color: WHITE;
+    }
+    #peso_id{
+        position: absolute;
+    top: 52%;
+    left: 27%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    height: 6%;
+    width: 37%;
+    color: black;
+    }
+    #peso{
+        position: absolute;
+    top: 48%;
+    left: 28%;
+    }
+    #kg{
+        position: absolute;
+        top: 54%;
+        left: 68%;
+    }
+    
+    #altura_id{
+        position: absolute;
+        top: 39%;
+        left: 27%;
+        border-radius: 5px;
+        color: black;
+        font-weight: bolder;
+        height: 6%;
+    width: 37%;
+    }
+    #altura{
+        position: absolute;
+        top: 34%;
+        left: 28%;
+    
+    }
+    #m{
+        position: absolute;
+        top: 41%;
+        left: 68%;
+    }
+    #number_id{
+        position: absolute;
+        top: 25%;
+        left: 27%;
+        border-radius: 5px;
+        color: black;
+        font-weight: bolder;
+        height: 6%;
+    width: 37%;
+    }
+    #idade{
+        position: absolute;
+        top: 20%;
+        left: 28%;
+    }
+    #anos{
+        position: absolute;
+        top: 27%;
+        left: 68%;
+    }
+    #sexo2{
+        position: absolute;
+        top: 9%;
+        left: 52%;
+        width: 83px;
+        height: 19px;
+    }
+    #limpar{
+        position: absolute;
+    left: 83px;
+    top: 3%;
+    width: 75px;
+    height: 26px;
+    background-color: #3F5666;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    }
+}

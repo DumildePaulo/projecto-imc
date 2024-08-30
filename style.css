@@ -1,0 +1,173 @@
+body{
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: rgb(4, 53, 58);
+    height: 608px;
+}
+#main{
+    width: 412px;
+    height: 466px;
+    background-color: #1A4A5A;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0E2C40;
+    color: WHITE;
+}
+#peso_id{
+    position: absolute;
+    top: 52%;
+    left: 39%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    height: 6%;
+    width: 21%;
+    color: black;
+}
+#peso{
+    position: absolute;
+    top: 48%;
+    left: 39%;
+}
+#kg{
+    position: absolute;
+    top: 54%;
+    left: 62%;
+}
+
+#altura_id{
+    position: absolute;
+    top: 39%;
+    left: 39%;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    height: 6%;
+    width: 21%;
+}
+#altura{
+    position: absolute;
+    top: 34%;
+    left: 39%;
+
+}
+#m{
+    position: absolute;
+    top: 41%;
+    left: 62%;
+}
+#number_id{
+    position: absolute;
+    top: 25%;
+    left: 39%;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    height: 6%;
+    width: 21%;
+}
+#idade{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+#anos{
+    position: absolute;
+    top: 27%;
+    left: 62%;
+}
+#sexo2{
+    position: absolute;
+    top: 9%;
+    left: 52%;
+    width: 83px;
+    height: 19px;
+}
+select{
+    width: 142px;
+    height: 34px;
+    border-radius: -5%;
+    color: black;
+    font-weight: bolder;
+}
+#calcular{
+    position: relative;
+    left: 114px;
+    top: 78%;
+    width: 190px;
+    height: 50px;
+    background-color: #3F5666;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#calcular:hover{
+    background-color:  rgba(100, 148, 237, 0.188);
+}
+#res{
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 11%;
+    left: 4%;
+}
+#re{
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+#resultado{
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    color: white;
+    font-weight: bolder;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.501) ;
+    position: absolute;
+    top: 23%;
+    color: white;
+    overflow-y: auto;
+}
+.content-table thead tr{
+    background-color: #1A4A5A;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.content-table td{
+    margin: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+background-color: #f3f3f365;
+}
+.conteiner{
+    overflow-y: auto;
+}
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+#limpar{
+    position: relative;
+    left: -162px;
+    top: 3%;
+    width: 75px;
+    height: 26px;
+    background-color: #3F5666;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
